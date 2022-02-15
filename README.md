@@ -2,6 +2,7 @@
 poeのproduction_Config.iniのlanguageを編集するだけのやつ
 
 ## 使う準備
+0.このページのCodeって書いてある緑色のボタンを押す→「Download zip」を押してダウンロードして解凍
 1.poe_lang_replacer.bat のショートカットを作って使いやすいところに置く  
 2.poe_lang_replacer.py をメモ帳とかで開く  
 3.6行目のfilename = r""の""中にproduction_Config.iniのパスを書く ↓例↓
