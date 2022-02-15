@@ -5,7 +5,9 @@ poeのproduction_Config.iniのlanguageを編集するだけのやつ
 1.poe_lang_replacer.bat のショートカットを作って使いやすいところに置く  
 2.poe_lang_replacer.py をメモ帳とかで開く  
 3.6行目のfilename = r""の""中にproduction_Config.iniのパスを書く  
+```
 例：filename = r"C:\Users\hoge\Documents\My Games\Path of Exile\production_Config.ini"  
+```
 こんな感じにかければ準備おっけ　間違ってたらbat実行時にエラーが出る  
 
 ## 使い方
