@@ -1,4 +1,5 @@
 import sys
+import re
 
 ##########################################################
 # replaceするファイル名のパス全てを""の中に入力してね
@@ -53,8 +54,8 @@ if now_lang == TranslateTo.JP:
     try:
         with open(filename, 'r', encoding="utf-8") as f:
             fileText = f.read()
-            after = fileText.replace('language=en', 'language=jp')
-
+            after = fileText.replace('\nlanguage=en\n', '\nlanguage=jp\n')
+        
         with open(filename, mode="w", encoding="utf-8") as f:
             f.write(after)
         print("finished! now: language=jp")
@@ -66,7 +67,7 @@ elif now_lang == TranslateTo.EN:
     try:
         with open(filename, 'r', encoding="utf-8") as f:
             fileText = f.read()
-            after = fileText.replace('language=jp', 'language=en')
+            after = fileText.replace('\nlanguage=jp\n', '\nlanguage=en\n')
 
         with open(filename, mode="w", encoding="utf-8") as f:
             f.write(after)
