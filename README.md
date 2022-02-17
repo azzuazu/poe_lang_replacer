@@ -16,5 +16,12 @@ poe_lang_replacer.batのショートカットをダブルクリックすると�
 日本語=>英語に  
 英語=>日本語に書き換わる  
 
+## 動かなかったら
+あずみに相談する;(
+
+pythonが入ってないパターンなら↓を見て、python3.7.xをインストールする必要があるかも ごめんねそのうち直します
+https://www.python.jp/install/windows/install.html
+
+
 ## これいる？
 ワース
