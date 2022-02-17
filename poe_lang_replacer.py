@@ -4,7 +4,7 @@ import re
 ##########################################################
 # replaceするファイル名のパス全てを""の中に入力してね
 ##########################################################
-filename = r"C:\Users\zeruc\Documents\My Games\Path of Exile\production_Config.ini"
+filename = r"ここにパスをコピーしてね"
 
 
 
