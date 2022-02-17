@@ -12,7 +12,7 @@ filename = r"C:\Users\hoge\Documents\My Games\Path of Exile\production_Config.in
 こんな感じにかければ準備おっけ　間違ってたらbat実行時にたぶんエラーが出る  
 
 ## 使い方
-poe_lang_replacer.batをダブルクリックすると現在の言語設定に応じて  
+poe_lang_replacer.batのショートカットをダブルクリックすると現在の言語設定に応じて  
 日本語=>英語に  
 英語=>日本語に書き換わる  
 
